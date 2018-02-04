@@ -3,7 +3,7 @@
 }
 #main-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(248, 248, 248, 1);
+    background-color: rgba(152, 214, 200, 1);
     border-width: 1px;
     border-radius: 4px;
 }
@@ -34,5 +34,5 @@
 }
 #main-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #main-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #888;
+    background-color: #98d6c8;
 }
