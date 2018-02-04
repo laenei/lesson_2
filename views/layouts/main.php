@@ -40,8 +40,10 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-left'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Инструкция', 'url' => ['/site/index']],
+            ['label' => 'Порядок сверки сведений', 'url' => ['/site/index']],
+            ['label' => 'Поиск по базе данных', 'url' => ['/site/index']],
+            ['label' => 'AboutThis', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
